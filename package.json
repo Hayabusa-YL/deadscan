@@ -1,0 +1,47 @@
+{
+  "name": "@hayabusa-yl/deadscan",
+  "version": "1.0.0",
+  "description": "Find dead code and orphan files in any codebase. No config, one command.",
+  "type": "module",
+  "bin": {
+    "deadscan": "./bin/deadscan.mjs"
+  },
+  "main": "./lib/scanner.mjs",
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md"
+  ],
+  "keywords": [
+    "dead-code",
+    "dead-code-detection",
+    "orphan-files",
+    "unused-code",
+    "unused-exports",
+    "static-analysis",
+    "code-quality",
+    "code-health",
+    "code-cleanup",
+    "dependency-analysis",
+    "tree-shaking",
+    "bundle-size",
+    "refactoring",
+    "linter",
+    "analyzer",
+    "cli",
+    "cli-tool",
+    "devtools",
+    "typescript",
+    "javascript",
+    "ci",
+    "cleanup-tool"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arkadia2024/deadscan"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
