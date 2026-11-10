@@ -1,10 +1,10 @@
 {
   "name": "@hayabusa-yl/deadscan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find dead code and orphan files in any codebase. No config, one command.",
   "type": "module",
   "bin": {
-    "deadscan": "./bin/deadscan.mjs"
+    "deadscan": "bin/deadscan.mjs"
   },
   "main": "./lib/scanner.mjs",
   "files": [
@@ -39,7 +39,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arkadia2024/deadscan"
+    "url": "git+https://github.com/Hayabusa-YL/deadscan.git"
   },
   "engines": {
     "node": ">=18"
